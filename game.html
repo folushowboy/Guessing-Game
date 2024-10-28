@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body> <div id="Game">
+    <h1>Guess the Number</h1>
+    <p>I am thinking of a number from 1 to 100 <br>
+       Can you guess it in 3 turns or less <br>
+       I will tell you if are too high or too low <br>
+       <h3>You have 3 guesses.</h3>
+    </p>
+    <span>Enter guess</span>
+    <input type="number" id="guess" placeholder="Enter your guess" required title="Must contain only numbers, numbers between 1 and 100 " >
+    <button id="submit">Check guess</button></span>
+    <h3 id="ans"></h3>
+    <p id="attempts"></p>
+    
+    <button id="start">New Game</button>
+     </div>
+
+
+    <script src="game.js"></script>
+</body>
+</html>

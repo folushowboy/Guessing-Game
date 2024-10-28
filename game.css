@@ -1,0 +1,37 @@
+
+span{
+    font-weight: bold;
+}
+button{
+    font-weight: bold;    
+}
+body{
+    font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-size: larger;
+}
+div{
+    background-color:ghostwhite;
+    padding: 50px;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+        
+}
+button {
+    padding: 5px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+button:hover {
+    background-color: black;
+}
